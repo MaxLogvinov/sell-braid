@@ -1,0 +1,29 @@
+:root {
+  --font-family: 'Jost', sans-serif;
+  --second-family: 'Classica Two', sans-serif;
+  --third-family: 'Champagne & Limousines', sans-serif;
+  --blue: #054777;
+  --white: #fff;
+  --chernyy: #000;
+  --belyy: #fff;
+  --belyy-fon: #f5f9ff;
+  --zelenyy: #33b93c;
+  --goluboy: #00c4ff;
+  --krasnyy: #e83333;
+  --seryy: #7c7c7c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--white);
+}
+
+.page {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}

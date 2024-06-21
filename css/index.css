@@ -1,0 +1,19 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../css/blocks/page.css);
+@import url(../css/blocks/header.css);
+@import url(../css/blocks/logo.css);
+@import url(../css/blocks/application.css);
+@import url(../css/blocks/navigation-icons.css);
+@import url(../css/blocks/main.css);
+@import url(../css/blocks/lead.css);
+@import url(../css/blocks/about-us.css);
+@import url(../css/blocks/how-work.css);
+@import url();
+@import url();
+
+@media (max-width: 1023px) {
+  .display-none {
+    display: none;
+  }
+}

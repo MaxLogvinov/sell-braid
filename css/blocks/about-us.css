@@ -1,0 +1,292 @@
+.about-us {
+  background: url('../../images/Line\ 169.svg') no-repeat right top,
+    url('../../images/GirlAndBorder.jpg') no-repeat left top,
+    url('../../images/Line\ 201.svg') no-repeat left top;
+  background-size: 100% 2px, 416px 500px, 2px 134px;
+  background-position: right 0 top 0, left 42px top 175px, left 423px top 126px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us__section-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 62px 40px 0 48px;
+}
+
+.about-us__section-box {
+  margin: 0;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: clamp(1rem, 0.912rem + 0.3756vw, 1.25rem);
+  line-height: 150%;
+  text-align: center;
+  color: var(--blue);
+  padding: 5px 0 0 0;
+}
+
+.about-us__section-title {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(0.9375rem, 0.7174rem + 0.939vw, 1.5625rem);
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
+  padding: 0 0 0 6px;
+}
+
+.about-us__authors-box {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: end;
+}
+
+.about-us__authors {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: clamp(0.9375rem, 0.3873rem + 2.3474vw, 2.5rem);
+  line-height: 150%;
+  text-transform: lowercase;
+  text-align: center;
+  color: var(--blue);
+  padding: 0 170px 0 0;
+  height: 45px;
+}
+
+.about-us__address {
+  margin: 0;
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 600;
+  font-size: clamp(0.9375rem, 0.3873rem + 2.3474vw, 2.5rem);
+  line-height: 150%;
+  text-transform: lowercase;
+  text-align: center;
+  color: var(--blue);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about-us__text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 23px 0 0 5px;
+}
+
+.about-us__pluses {
+  width: 31%;
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: clamp(0.9375rem, 0.8275rem + 0.4695vw, 1.25rem);
+  line-height: 150%;
+  color: var(--blue);
+}
+
+.about-us__title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(2.5rem, 1.6197rem + 3.7559vw, 5rem);
+  line-height: 150%;
+  text-align: center;
+  color: var(--blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us__title_base {
+  padding: 0px 0px 18px 38px;
+}
+
+.about-us__title_strong {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: clamp(6.25rem, 3.7192rem + 10.7981vw, 13.4375rem);
+  line-height: 111%;
+  text-transform: lowercase;
+  text-align: center;
+  color: var(--blue);
+}
+
+.about-us__agruments-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0 50px 0;
+}
+
+.about-us__button {
+  padding: 0;
+  width: 392px;
+  height: 49px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--blue);
+  background-color: var(--white);
+  border: 1px var(--blue) solid;
+  align-self: end;
+  margin: 0 0 30px 64px;
+  cursor: pointer;
+  background: url(../../images/button-arrow.svg) no-repeat right 22% top 50%;
+}
+
+.about-us__agruments-list {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 34px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us__agruments-item {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: clamp(1.25rem, 1.14rem + 0.4695vw, 1.5625rem);
+  line-height: 150%;
+  text-transform: lowercase;
+  color: var(--blue);
+  border-bottom: 0.5px solid var(--blue);
+  width: 710px;
+}
+
+@media (max-width: 1439px) {
+  .about-us {
+    background-size: 100% 2px, 370px 445px, 2px 134px;
+    background-position: right 0 top 0, left 37px top 175px,
+      left 376px top 133px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .about-us {
+    background: url('../../images/Line\ 169.svg') no-repeat right top,
+      url('../../images/GirlAndBorder.jpg') no-repeat left top;
+    background-size: 100% 2px, 295px 335px;
+    background-position: right 0 top 0, left 32px top 175px;
+  }
+  .about-us__section-container {
+    padding: 62px 30px 0 38px;
+  }
+  .about-us__pluses {
+    width: 38%;
+    padding: 0 0 0 30px;
+  }
+  .about-us__title {
+    padding: 0 0 0 30px;
+  }
+  .about-us__button {
+    margin: 0 0 30px 50px;
+  }
+  .about-us__agruments-list {
+    gap: 29px;
+  }
+  .about-us__agruments-item {
+    width: 504px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .about-us {
+    background-position: right 0 top 0, left 14px top 197px;
+    background-size: 100% 2px, 215px 260px;
+  }
+  .about-us__section-container {
+    padding: 67px 28px 0 16px;
+  }
+  .about-us__section-box {
+    padding: 10px 0 0 0;
+  }
+  .about-us__authors-box {
+    width: 60%;
+  }
+  .about-us__authors {
+    padding: 0 76px 0 0;
+    height: 20px;
+  }
+  .about-us__pluses {
+    width: 49%;
+    padding: 0 0 0 70px;
+  }
+  .about-us__button {
+    width: 350px;
+    height: 49px;
+    margin: 55px 13px 50px 0px;
+    font-weight: 400;
+    background: url(../../images/button-arrow.svg) no-repeat right 28% top 50%;
+    padding: 0px 65px 0 0;
+  }
+  .about-us__agruments-container {
+    padding: 17px 0px 50px 20px;
+  }
+  .about-us__agruments-item {
+    width: 379px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us {
+    background: url('../../images/Line\ 169.svg') no-repeat right top,
+      url('../../images/GirlAndBorderSmall.jpg') no-repeat left top;
+    background-position: right 0 top 0, left 14px top 197px;
+    background-size: 100% 2px, 168px 202px;
+  }
+  .about-us__pluses {
+    width: 63%;
+    padding: 0 0 0 127px;
+  }
+  .about-us__agruments-container {
+    flex-direction: column-reverse;
+    padding: 46px 0 31px 0;
+    align-items: center;
+  }
+  .about-us__button {
+    align-self: center;
+  }
+  .about-us__agruments-list {
+    gap: 6px;
+    align-items: end;
+  }
+  .about-us__agruments-item {
+    width: 364px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-us__text-container {
+    flex-direction: column-reverse;
+    padding: 229px 0 0 0;
+  }
+  .about-us__title {
+    padding: 0;
+  }
+  .about-us__title_base {
+    padding: 0;
+  }
+  .about-us__pluses {
+    width: 93%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 410px) {
+  .about-us__agruments-container {
+    align-items: end;
+  }
+  .about-us__button {
+    align-self: end;
+  }
+}

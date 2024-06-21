@@ -1,0 +1,21 @@
+.application {
+  width: 164px;
+  background-image: url(../../images/EllipseForApplication.svg),
+    url(../../images/EllipseForApplication2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 32px;
+  cursor: pointer;
+}
+
+.application__text {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--blue);
+  text-align: center;
+  padding: 7px 0 0 0;
+}

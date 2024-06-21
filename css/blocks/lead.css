@@ -1,0 +1,308 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('../../images/alexander-krivitskiy-two.jpg') no-repeat left
+      bottom,
+    url('../../images/alexander-krivitskiy-three.jpg') no-repeat right bottom;
+  background-size: 383px 573px, 252px 336px;
+  background-position: left 0 bottom 27px, right 0 bottom 27px;
+  margin: 64px 40px 0 40px;
+}
+
+.lead__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lead__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 0 49px;
+}
+
+.lead__box {
+  margin: 0;
+  padding: 0 0 0 91px;
+}
+
+.lead__title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: clamp(0.9375rem, 0.7174rem + 0.939vw, 1.5625rem);
+  text-transform: uppercase;
+  color: var(--blue);
+  padding: 0 0 0 11px;
+}
+
+.lead__title:nth-last-child(1) {
+  padding-left: 149px;
+}
+
+.lead__title_italic {
+  margin: 0;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: clamp(2.8125rem, 2.3724rem + 1.8779vw, 4.0625rem);
+  color: var(--blue);
+  padding: 0 0 0 30px;
+}
+
+.lead__subtitle {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: clamp(0.6875rem, 0.5775rem + 0.4695vw, 1rem);
+  text-transform: uppercase;
+  color: var(--blue);
+  padding: 30px 197px 0 0;
+}
+
+.lead__subtitle_strong {
+  font-weight: 700;
+  padding: 5px 0px 0 5px;
+}
+
+.lead__subcontent {
+  display: flex;
+  justify-content: space-between;
+  padding: 43px 0 0 245px;
+}
+
+.lead__link {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 434px;
+  height: 391px;
+  gap: 13px;
+  background: url(../../images/Subtract.svg) no-repeat 0px 2px;
+  background-size: 100%;
+}
+
+.lead__arrow {
+  width: clamp(1.25rem, 1.0739rem + 0.7512vw, 1.75rem);
+  height: clamp(1.25rem, 1.0739rem + 0.7512vw, 1.75rem);
+  padding: 0px 0px 0px 45px;
+}
+
+.lead__link-text {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: clamp(1.25rem, 0.9199rem + 1.4085vw, 2.1875rem);
+  text-transform: uppercase;
+  color: var(--blue);
+  padding: 0px 0px 0px 45px;
+}
+
+.lead__paragraph {
+  display: flex;
+  width: 50%;
+}
+
+.lead__paragraph-box {
+  margin: 0;
+  padding: 58px 0 0 34px;
+}
+
+.lead__paragraph-line {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: clamp(1rem, 0.6259rem + 1.5962vw, 2.0625rem);
+  text-transform: uppercase;
+  color: var(--blue);
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lead__paragraph-text {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: clamp(0.9375rem, 0.6074rem + 1.4085vw, 1.875rem);
+  line-height: 103%;
+  text-transform: lowercase;
+  color: var(--blue);
+  padding: 0 0px 0 9px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lead__paragraph-text_background {
+  background-color: var(--white);
+  padding-left: 147px;
+  width: 71%;
+}
+
+@media (max-width: 1439px) {
+  .lead {
+    background-size: 337px 504px, 227px 295px;
+  }
+  .lead__box {
+    padding: 0 0 0 50px;
+  }
+  .lead__paragraph-box {
+    padding: 93px 0 0 0px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .lead {
+    margin: 64px 30px 0 30px;
+    background-size: 272px 407px, 169px 221px;
+  }
+  .lead__box {
+    padding: 0 0 0 50px;
+  }
+  .lead__paragraph-box {
+    padding: 93px 0 0 0px;
+  }
+  .lead__title_italic {
+    padding: 0 0 0 25px;
+  }
+  .lead__title:nth-last-child(1) {
+    padding-left: 108px;
+  }
+  .lead__subtitle {
+    padding: 25px 130px 0 0;
+  }
+  .lead__subtitle_strong {
+    padding: 5px 0px 0 3px;
+  }
+  .lead__subcontent {
+    padding: 33px 0 0 131px;
+  }
+  .lead__link {
+    width: 380px;
+    height: 340px;
+  }
+  .lead__paragraph-text_background {
+    padding-left: 122px;
+    width: 73%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .lead {
+    background-size: 190px 285px, 169px 221px;
+    background-position: left 2px bottom 175px, right 10px bottom 360px;
+    margin: 24px 20px 0 20px;
+  }
+  .lead__link {
+    width: 266px;
+    height: 238px;
+    margin: 267px 0 0 0;
+    align-self: flex-end;
+  }
+  .lead__subcontent {
+    padding: 0px 0 0 185px;
+    flex-direction: column-reverse;
+  }
+  .lead__paragraph {
+    align-self: center;
+  }
+  .lead__paragraph-box {
+    padding: 71px 0 0 0px;
+  }
+  .lead__paragraph-text_background {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead {
+    margin: 8px 0 0 16px;
+    background: url('../../images/alexander-krivitskiy-two-small.jpg') no-repeat
+        left bottom,
+      url('../../images/alexander-krivitskiy-three.jpg') no-repeat right bottom;
+    background-size: 132px 239px, 160px 214px;
+    background-position: left 0 bottom 189px, right 10px bottom 360px;
+  }
+  .lead__content {
+    padding: 0 0 0 0;
+    align-items: center;
+  }
+  .lead__box {
+    padding: 0 0 0 0;
+  }
+  .lead__title_italic {
+    padding: 0 0 0 0px;
+  }
+  .lead__title {
+    padding: 0 0 0 3px;
+  }
+  .lead__title:nth-last-child(1) {
+    padding: 11px 0 0 56px;
+  }
+  .lead__subtitle {
+    padding: 9px 0 0 0;
+  }
+  .lead__subtitle_strong {
+    padding: 4px 0px 0 3px;
+  }
+  .lead__subcontent {
+    padding: 0px 0 0 71px;
+    flex-direction: column-reverse;
+  }
+  .lead__link {
+    width: 243px;
+    height: 219px;
+    margin: 267px 0 0 0;
+    align-self: flex-end;
+  }
+  .lead__arrow {
+    padding: 0;
+  }
+  .lead__link-text {
+    padding: 0;
+  }
+  .lead__paragraph {
+    align-self: end;
+    width: 75%;
+  }
+  .lead__paragraph-box {
+    padding: 55px 0 0 0px;
+  }
+
+  .lead__paragraph-line {
+    width: 11px;
+  }
+  .lead__paragraph-text {
+    padding: 0;
+  }
+  .lead__paragraph-text_background {
+    padding-left: 70px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .lead__paragraph {
+    align-self: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .lead__paragraph {
+    align-self: start;
+  }
+}
+
+@media (max-width: 395px) {
+  .lead__content {
+    align-items: baseline;
+  }
+  .lead__paragraph {
+    align-self: start;
+    width: 74%;
+  }
+}
