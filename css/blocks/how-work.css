@@ -147,9 +147,9 @@
 }
 
 .how-work__list-link {
-  display: flex;
-  justify-content: center;
   width: 100%;
+  /* display: flex;
+  justify-content: center;
   height: 71px;
   background: url(../../images/Ellipse\ 5042.svg) no-repeat center,
     url(../../images/Ellipse\ 5043.svg) no-repeat center;
@@ -159,11 +159,10 @@
   margin: 10px 0 0 0;
   padding: 21px 0 0 0;
   background-position: 50% 47%;
+  opacity: 1; */
 }
 
 .how-work__link-text {
-  padding: 0 18px 20px 0;
-  font-size: clamp(0.9375rem, 0.7174rem + 0.939vw, 1.5625rem);
   color: var(--white);
 }
 

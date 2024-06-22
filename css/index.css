@@ -9,7 +9,7 @@
 @import url(../css/blocks/lead.css);
 @import url(../css/blocks/about-us.css);
 @import url(../css/blocks/how-work.css);
-@import url();
+@import url(../css/blocks/mobile-menu.css);
 @import url();
 
 @media (max-width: 1023px) {

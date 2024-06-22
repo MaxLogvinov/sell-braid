@@ -19,6 +19,10 @@ body {
   background: var(--white);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .page {
   box-sizing: border-box;
   display: flex;
@@ -26,4 +30,14 @@ body {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.no-scroll {
+  overflow: hidden;
 }

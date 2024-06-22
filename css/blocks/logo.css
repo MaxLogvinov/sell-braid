@@ -5,6 +5,7 @@
   background-size: cover;
   width: 73px;
   height: 67px;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {

@@ -140,6 +140,22 @@
   margin: 0 0 30px 64px;
   cursor: pointer;
   background: url(../../images/button-arrow.svg) no-repeat right 22% top 50%;
+  transition: all 0.3s linear;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .about-us__button:hover {
+    background: url(../../images/about-us-button.svg);
+  }
+
+  .about-us__button:hover::before {
+    content: '';
+  }
+}
+
+.about-us__button::before {
+  content: 'ПОДРОБНЕЕ';
+  transition: all opacity 0.3s;
 }
 
 .about-us__agruments-list {

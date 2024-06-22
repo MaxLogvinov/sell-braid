@@ -85,12 +85,31 @@
   gap: 13px;
   background: url(../../images/Subtract.svg) no-repeat 0px 2px;
   background-size: 100%;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .lead__link:hover {
+    background: url(../../images/Subtract-blue.svg) no-repeat 0px 2px;
+  }
+  .lead__link:hover .lead__arrow {
+    background: url(../../images/Arrow-white.svg) no-repeat;
+    background-position: 44px 0;
+  }
+  .lead__link:hover .lead__link-text {
+    color: var(--white);
+  }
 }
 
 .lead__arrow {
+  background: url(../../images/arrow.svg) no-repeat;
   width: clamp(1.25rem, 1.0739rem + 0.7512vw, 1.75rem);
   height: clamp(1.25rem, 1.0739rem + 0.7512vw, 1.75rem);
-  padding: 0px 0px 0px 45px;
+  padding: 4px 0px 0px 46px;
+  background-position: 44px 0;
+  background-size: clamp(1.25rem, 1.0739rem + 0.7512vw, 1.75rem);
+  transition: all 0.3s linear;
 }
 
 .lead__link-text {
@@ -101,6 +120,7 @@
   text-transform: uppercase;
   color: var(--blue);
   padding: 0px 0px 0px 45px;
+  transition: all 0.3s linear;
 }
 
 .lead__paragraph {
@@ -260,7 +280,8 @@
     align-self: flex-end;
   }
   .lead__arrow {
-    padding: 0;
+    padding: 4px 0px 0px 46px;
+    background-position: 23px 0;
   }
   .lead__link-text {
     padding: 0;

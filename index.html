@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
-    <script href="./js/scripts.js" defer></script>
+    <script src="./js/scripts.js" defer></script>
     <title>Продай косу</title>
   </head>
   <body class="page">
     <header class="header">
-      <div class="logo header__logo"></div>
+      <a href="/" class="logo header__logo"></a>
       <nav class="header__navigation display-none">
         <ul class="header__navigation-list">
           <li class="header__navigation-item">
-            <a class="header__navigation-link" href="">о нас</a>
+            <a class="header__navigation-link" href="#about-us">о нас</a>
           </li>
           <li class="header__navigation-item">
-            <a class="header__navigation-link" href="">как мы работаем</a>
+            <a class="header__navigation-link" href="#how-work"
+              >как мы работаем</a
+            >
           </li>
           <li class="header__navigation-item">
             <a class="header__navigation-link" href="">блог</a>
@@ -70,11 +72,7 @@
             </h2>
             <div class="lead__subcontent">
               <a class="lead__link"
-                ><img
-                  class="lead__arrow"
-                  src="./images/arrow.svg"
-                  alt="стрела-ссылка"
-                />
+                ><div class="lead__arrow"></div>
                 <h3 class="lead__link-text">продай косу</h3>
               </a>
               <div class="lead__paragraph">
@@ -92,7 +90,7 @@
           </div>
         </div>
       </section>
-      <section class="about-us">
+      <section id="about-us" class="about-us">
         <div class="about-us__section-container">
           <p class="about-us__section-box">
             //
@@ -114,7 +112,7 @@
           </h2>
         </div>
         <div class="about-us__agruments-container">
-          <button class="about-us__button">ПОДРОБНЕЕ</button>
+          <button class="about-us__button"></button>
           <ul class="about-us__agruments-list">
             <li class="about-us__agruments-item">Высокие цены</li>
             <li class="about-us__agruments-item">Честность и доверие</li>
@@ -123,7 +121,7 @@
           </ul>
         </div>
       </section>
-      <section class="how-work">
+      <section id="how-work" class="how-work">
         <p class="how-work__section-box">
           //
           <strong class="how-work__section-title">как мы работаем</strong>
@@ -163,11 +161,13 @@
                 процесс среза и оплаты
                 <span class="how-work__list-counter">05</span>
               </li>
-              <li class="how-work__list-link application">
-                <a class="how-work__link-text application__text"
+              <li class="how-work__list-link application_blue">
+                <a
+                  class="how-work__link-text application__text application__text_blue"
                   >читать подробнее</a
                 >
-                <a class="how-work__text-mobile application__text"
+                <a
+                  class="how-work__text-mobile application__text application__text_blue"
                   >продать косу</a
                 >
               </li>
@@ -183,5 +183,33 @@
         </div>
       </section>
     </main>
+    <aside class="mobile-menu">
+      <div class="mobile-menu__container">
+        <a href="/" class="logo mobile-menu__logo"></a>
+        <button class="mobile-menu__close-button"></button>
+      </div>
+      <nav class="mobile-menu__navigation">
+        <ul class="mobile-menu__list">
+          <li class="mobile-menu__list-item">о нас</li>
+          <li class="mobile-menu__list-item">как мы работаем</li>
+          <li class="mobile-menu__list-item">блог</li>
+          <li class="mobile-menu__list-item">соцсети</li>
+          <li class="mobile-menu__list-item">контакты</li>
+          <li class="mobile-menu__list-item">
+            <a
+              href="#"
+              class="mobile-menu__application application_blue application__text application__text_blue"
+              >оставить заявку</a
+            >
+          </li>
+          <li class="mobile-menu__list-item">
+            <img
+              src="./images/foto-mobile-first.jpg"
+              class="mobile-menu__photo"
+            />
+          </li>
+        </ul>
+      </nav>
+    </aside>
   </body>
 </html>
