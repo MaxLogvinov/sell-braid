@@ -89,19 +89,6 @@
   cursor: pointer;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .lead__link:hover {
-    background: url(../../images/Subtract-blue.svg) no-repeat 0px 2px;
-  }
-  .lead__link:hover .lead__arrow {
-    background: url(../../images/Arrow-white.svg) no-repeat;
-    background-position: 44px 0;
-  }
-  .lead__link:hover .lead__link-text {
-    color: var(--white);
-  }
-}
-
 .lead__arrow {
   background: url(../../images/arrow.svg) no-repeat;
   width: clamp(1.25rem, 1.0739rem + 0.7512vw, 1.75rem);
@@ -110,6 +97,21 @@
   background-position: 44px 0;
   background-size: clamp(1.25rem, 1.0739rem + 0.7512vw, 1.75rem);
   transition: all 0.3s linear;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .lead__link:hover {
+    background: url(../../images/Subtract-blue.svg) no-repeat 0px 2px;
+    background-size: 100%;
+  }
+  .lead__link:hover .lead__arrow {
+    background: url(../../images/Arrow-white.svg) no-repeat;
+    background-size: clamp(1.25rem, 1.0739rem + 0.7512vw, 1.75rem);
+    background-position: 44px 0;
+  }
+  .lead__link:hover .lead__link-text {
+    color: var(--white);
+  }
 }
 
 .lead__link-text {

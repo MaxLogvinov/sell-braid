@@ -99,4 +99,7 @@
   width: 253px;
   height: 339px;
   padding: 117px 0 0 0;
+  background: url(../../images/foto-mobile-first.jpg) no-repeat;
+  background-size: 100%;
+  background-position: 0 117px;
 }
