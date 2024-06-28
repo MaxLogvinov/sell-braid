@@ -10,10 +10,4 @@
 @import url(../css/blocks/about-us.css);
 @import url(../css/blocks/how-work.css);
 @import url(../css/blocks/mobile-menu.css);
-@import url();
-
-@media (max-width: 1023px) {
-  .display-none {
-    display: none;
-  }
-}
+@import url(../css//blocks//display-none.css);
